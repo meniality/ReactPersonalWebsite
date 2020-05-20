@@ -7,37 +7,21 @@ function NavBar(props) {
 
   return (
     <div style={styles.navBarDiv}>
-      <Tab>
+      <Tab onClick = {() => setSelectedPage('home')}>
         Home
-        </Tab>
-      <button 
-        className = {'navBarTab'}
-        style = {styles.navBarTab}
-        onClick = {() => setSelectedPage('projects')}
-      >
+      </Tab>
+      <Tab onClick = {() => setSelectedPage('projects')}>
         Projects
-      </button>
-      <button 
-        className = {"navBarTab"}
-        style = {styles.navBarTab}
-        onClick = {() => setSelectedPage('blog')}
-      >
+      </Tab>
+      <Tab onClick = {() => setSelectedPage('blog')}>
         Blog
-      </button>
-      <button 
-        className = {"navBarTab"}
-        style = {styles.navBarTab}
-        onClick = {() => setSelectedPage('resume')}
-      >
+      </Tab>
+      <Tab onClick = {() => setSelectedPage('resume')}>
         Resume
-      </button>
-      <button 
-        className = {"navBarTab"}
-        style = {styles.navBarTab}
-        onClick = {() => setSelectedPage('contactMe')}
-      >
+      </Tab>
+      <Tab onClick = {() => setSelectedPage('contactMe')}>
         Contact Me
-      </button>
+      </Tab>
     </div>
   )
 }
@@ -50,10 +34,16 @@ height: 100%;
 border-style: none;
 background-color: rgb(226, 230, 233);
 border-right-style: solid;
-border-width: 2px;
+border-left-style: solid;
+border-width: 1px;
 border-color: rgb(78, 78, 78);
+font-size: 20px;
+font-family: 'Frank Ruhl Libre';
 &:hover {
   background-color: rgb(188, 191, 193)
+}
+&:focus {
+  outline: none
 }
 `
 
@@ -62,13 +52,4 @@ const styles = {
     height: 45,
     backgroundColor: "rgb(226, 230, 233"
   },
-  navBarTab: {
-    width: '20vw',
-    height: '100%',
-    borderStyle: 'none',
-    backgroundColor: 'rgb(226, 230, 233',
-    borderRightStyle: 'solid',
-    borderWidth: 2,
-    borderColor: 'rgb(78, 78, 78)'
-  }
 }
