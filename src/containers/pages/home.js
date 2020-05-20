@@ -14,17 +14,6 @@ function HomePage() {
         was coding and the joys it brought me. I decided it was now or never 
         to put everything I have into a career change and go for it. 
       </p>
-      <div>
-        <a href = "https://www.linkedin.com/in/patrick-hoehn-0a1238197/" target="_blank">
-          <img id = "linkedin-icon"class= "icon" src="https://img.icons8.com/color/48/000000/linkedin.png"/>
-        </a>
-        <a href = "https://github.com/meniality" target="_blank">
-          <img id = "github-icon" class= "icon" src="https://img.icons8.com/windows/48/000000/github.png"/> 
-        </a>
-        <a href ="https://patrh99.wixsite.com/website/blog" target="_blank">
-          <img id = "wix-icon" class= "icon" src="https://img.icons8.com/windows/48/000000/wix.png"/>
-        </a>
-      </div>
     </BackgroundContainer>
   )
 }
@@ -38,7 +27,7 @@ const BackgroundContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;`
-  
+
 const MainPageImage = styled.img`
   object-fit: cover;
   width: 25rem;

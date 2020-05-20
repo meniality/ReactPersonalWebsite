@@ -4,6 +4,7 @@ import Header from './containers/header'
 import NavBar from './containers/navBar'
 import HomePage from './containers/pages/home'
 import ProjectsPage from './containers/pages/projects'
+import Footer from './containers/footer'
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       <Header />
       <NavBar setSelectedPage={setSelectedPage}/>
       {renderPage()}
+      <Footer />
     </div>
   );
 }
