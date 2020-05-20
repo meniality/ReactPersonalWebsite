@@ -4,10 +4,27 @@ import styled from 'styled-components'
 function HomePage() {
   return (
     <BackgroundContainer>
-      {/* <div style={styles.imageDiv}> */}
         <MainPageImage src="https://drive.google.com/uc?id=1CIkHpbvdrzCUOTcUUCGunYasXNU9iezb" />
-      {/* </div> */}
       <h3 style ={styles.intro}>Hi, I'm Patrick.</h3>
+      <p style={styles.paragraph}>
+        I am a recent graduate from the Flatiron School bootcamp in Denver. 
+        I had been working in the retail jewelry industry for many years and 
+        I knew I wasn't happy. I wanted to create. I wanted to do something 
+        that actually mattered. I remebered the times in high school when I 
+        was coding and the joys it brought me. I decided it was now or never 
+        to put everything I have into a career change and go for it. 
+      </p>
+      <div>
+        <a href = "https://www.linkedin.com/in/patrick-hoehn-0a1238197/" target="_blank">
+          <img id = "linkedin-icon"class= "icon" src="https://img.icons8.com/color/48/000000/linkedin.png"/>
+        </a>
+        <a href = "https://github.com/meniality" target="_blank">
+          <img id = "github-icon" class= "icon" src="https://img.icons8.com/windows/48/000000/github.png"/> 
+        </a>
+        <a href ="https://patrh99.wixsite.com/website/blog" target="_blank">
+          <img id = "wix-icon" class= "icon" src="https://img.icons8.com/windows/48/000000/wix.png"/>
+        </a>
+      </div>
     </BackgroundContainer>
   )
 }
@@ -20,10 +37,8 @@ const BackgroundContainer = styled.div`
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  `
+  align-items: center;`
   
-
 const MainPageImage = styled.img`
   object-fit: cover;
   width: 25rem;
@@ -39,6 +54,15 @@ const styles = {
   },
   intro:{
     fontSize: 40
+  },
+  paragraph:{
+    margin: 90,
+    marginTop: 30,
+    marginBottom: 30,
+    fontFamily: 'Adamina',
+    color: 'rgb(70, 70, 70)',
+    fontSize: '1.3rem',
+    textAlign: 'center',
   }
 }
 
