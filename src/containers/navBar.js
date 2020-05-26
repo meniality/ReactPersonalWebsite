@@ -13,7 +13,7 @@ function NavBar(props) {
       <Tab onClick = {() => setSelectedPage('projects')}>
         Projects
       </Tab>
-      <Tab onClick = {() => setSelectedPage('blog')}>
+      <Tab onClick = {() => {window.location='https://patrh99.wixsite.com/website/blog'}}>
         Blog
       </Tab>
       <Tab onClick = {() => setSelectedPage('resume')}>

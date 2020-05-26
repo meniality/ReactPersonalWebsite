@@ -21,14 +21,14 @@ function ProjectsPage() {
             <a href = "https://github.com/meniality/library-share-frontend" target="_blank">Github for Front End</a>
             <a href = "https://github.com/meniality/library_share_backend" target="_blank">Github for Back End</a>
           </div>
-          <div style = {styles.projectContainer}>
-            <h3 style={styles.projectTitle}>Board Game Meetup</h3>
-            <iframe width="840" height="472" src="https://www.youtube.com/embed/KafJbb7Uj0c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <p style= {styles.description}>Within The Board Game Meetup you can create a new meetup which includes date, time, location and you can pick the game from what is currently loaded in the back end. Upon submiting, the form adds a new meet up card on the front page. You can also add new users on the front page. You can click on any meetup card which brings you to its individual show page. On this page it displays the info for the meetup along with which players are currently signed up for the meetup. On this page you can add players, update the location and delete the meetup. You can click on either the game name or player name and it will bring you to their indivdual show pages. On a players Show Page it shows which board games are owned by that player which and allows a user to add a game to a players library.</p>
-            <div style={styles.githubDiv}>
-              <a href = "https://github.com/meniality/BoardGameMeetupFrontend" target="_blank">Github for Front End</a>
-              <a href = "https://github.com/meniality/BoardGameMeetupBackend" target="_blank">Github for Back End</a>
-            </div>
+        </div>
+        <div style = {styles.projectContainer}>
+          <h3 style={styles.projectTitle}>Board Game Meetup</h3>
+          <iframe width="840" height="472" src="https://www.youtube.com/embed/KafJbb7Uj0c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p style= {styles.description}>Within The Board Game Meetup you can create a new meetup which includes date, time, location and you can pick the game from what is currently loaded in the back end. Upon submiting, the form adds a new meet up card on the front page. You can also add new users on the front page. You can click on any meetup card which brings you to its individual show page. On this page it displays the info for the meetup along with which players are currently signed up for the meetup. On this page you can add players, update the location and delete the meetup. You can click on either the game name or player name and it will bring you to their indivdual show pages. On a players Show Page it shows which board games are owned by that player which and allows a user to add a game to a players library.</p>
+          <div style={styles.githubDiv}>
+            <a href = "https://github.com/meniality/BoardGameMeetupFrontend" target="_blank">Github for Front End</a>
+            <a href = "https://github.com/meniality/BoardGameMeetupBackend" target="_blank">Github for Back End</a>
           </div>
         </div>
       </div>
