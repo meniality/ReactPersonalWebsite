@@ -4,6 +4,7 @@ import Header from './containers/header'
 import NavBar from './containers/navBar'
 import HomePage from './containers/pages/home'
 import ProjectsPage from './containers/pages/projects'
+import ContactMe from './containers/pages/contactMe'
 import Footer from './containers/footer'
 
 function App() {
@@ -13,13 +14,11 @@ function App() {
   const renderPage = () => {
     switch(selectedPage) {
       case 'home':
-        return (
-          <HomePage />
-        )
+        return <HomePage />
       case 'projects':
-        return (
-          <ProjectsPage />
-        )
+        return <ProjectsPage />
+      case'contactMe':
+          return <ContactMe />
       default:
         return null
     }
