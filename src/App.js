@@ -4,7 +4,6 @@ import Header from './containers/header'
 import NavBar from './containers/navBar'
 import HomePage from './containers/pages/home'
 import ProjectsPage from './containers/pages/projects'
-import ResumePage from './containers/pages/resume'
 import Footer from './containers/footer'
 
 function App() {
@@ -20,10 +19,6 @@ function App() {
       case 'projects':
         return (
           <ProjectsPage />
-        )
-      case 'resume':
-        return (
-          <ResumePage />
         )
       default:
         return null

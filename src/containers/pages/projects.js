@@ -42,11 +42,13 @@ const styles = {
   outerDiv:{
     display: 'flex',
     justifyContent: 'center',
+    backgroundImage: 'linear-gradient(to bottom right, hsl(219, 23%, 55%), hsl(201, 13%, 90%))',
+    backgroundSize: 'cover',
   },
   backgroundDiv: {
     width: '92%',
-    marginTop: 20,
-    backgroundColor: 'rgb(236, 236, 236)',
+    margin: 20,
+    backgroundColor: 'rgb(227, 227, 232',
     borderRadius: 10,
     display: 'flex',
     flexDirection: 'column',
