@@ -16,7 +16,7 @@ function NavBar(props) {
       <Tab onClick = {() => {window.location='https://patrh99.wixsite.com/website/blog'}}>
         Blog
       </Tab>
-      <Tab onClick = {() => setSelectedPage('resume')}>
+      <Tab onClick = {() => {window.open('/Patrick Hoehn Technical Resume.pdf', '_blank')}}>
         Resume
       </Tab>
       <Tab onClick = {() => setSelectedPage('contactMe')}>
