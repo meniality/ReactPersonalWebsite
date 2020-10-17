@@ -25,8 +25,10 @@ function App() {
   }
   return (
     <div className="App">
-      <Header />
-      <NavBar setSelectedPage={setSelectedPage}/>
+      <div style = {styles.topDiv}>
+        <Header />
+        <NavBar setSelectedPage={setSelectedPage}/>
+      </div>
       {renderPage()}
       <Footer />
     </div>
@@ -34,3 +36,10 @@ function App() {
 }
 
 export default App;
+
+const styles = {
+  topDiv:{
+    position: 'fixed',
+    width: '100%'
+  },
+}

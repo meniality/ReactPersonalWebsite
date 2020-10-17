@@ -29,6 +29,7 @@ const styles = {
     flexDirection: 'column',
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: 'rgb(226, 230, 233)'
+    backgroundColor: '#f4f5f0',
+    paddingTop: '30px'
   }
 }
