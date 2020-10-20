@@ -111,7 +111,7 @@ width: 100%;
 height: auto;
 position: static;
 &:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
   cursor: pointer;
   z-index: -1
 }
