@@ -40,6 +40,7 @@ export default App;
 const styles = {
   topDiv:{
     position: 'fixed',
-    width: '100%'
+    width: '100%',
+    zIndex: 2
   },
 }

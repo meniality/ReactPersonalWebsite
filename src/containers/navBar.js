@@ -30,8 +30,8 @@ function NavBar(props) {
         </Tab>
       </div>
       <div style = {styles.linkIcon}>
-        <a href = "https://www.linkedin.com/in/patrick-hoehn-0a1238197/" target="_blank">
-          <img id = "linkedin-icon"class= "icon" src="https://img.icons8.com/color/48/000000/linkedin.png"/>
+        <a href = "https://www.linkedin.com/in/patrick-hoehn-0a1238197/" target="_blank" rel="noopener noreferrer">
+          <img id = "linkedin-icon"className= "icon" alt ="linkedIn" src="https://img.icons8.com/color/48/000000/linkedin.png"/>
         </a>
       </div>
     </div>
@@ -71,7 +71,8 @@ font-family: 'Frank Ruhl Libre';
 const styles = {
   outerDiv:{
     display: 'flex',
-    justifyContent: 'space-between'
+    justifyContent: 'space-between',
+    zIndex: 2
   },
   navBarDiv:{
     height: 45,

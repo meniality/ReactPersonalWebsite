@@ -6,6 +6,7 @@ function ContactMePage(){
       <a 
         href = {'https://www.linkedin.com/in/patrick-hoehn-0a1238197/'} 
         target="_blank"
+        rel="noopener noreferrer"
         style = {styles.anchor}
       >
         LinkedIn
@@ -13,6 +14,7 @@ function ContactMePage(){
       <a 
         href = {'https://github.com/meniality'} 
         target="_blank"
+        rel="noopener noreferrer"
         style = {styles.anchor}
         >
         GitHub
